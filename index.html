@@ -5,32 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilos</title>
-    <!-- Estilos en linea de bloque --> 
-    <style>
-        header{
-            border: 4px solid rgb(54, 148, 101);
-            padding: 20px;
-            text-align: center;
-            background-color:rgb(105, 240, 150);
-            font-weight: bold;
-        } 
-    
-        p{
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: justify;
-            color: rgb(11, 11, 41);
-        }
-        h1{
-            text-align: center;
-            color: rgb(13, 13, 27);
-        }
-        img{
-            width: 250px;
-            height: 250px;
-            margin: 0 5px;
-            border-radius: 10px;
-        }
-        </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header> 
@@ -38,15 +13,70 @@
     </header>    
 
     <Main>
-    
-    <p>Maysan Boutique será una plataforma de comercio electrónico especializada en calzado de alta calidad para caballeros y damas. El proyecto busca ofrecer una experiencia de compra personalizada con herramientas específicas para la selección de calzado, como guía de tallas, visualización 360° y recomendaciones personalizadas basadas en el estilo del usuario.</p>
+        <p>Maysan Boutique será una plataforma de comercio electrónico especializada en calzado de alta calidad para caballeros y damas. El proyecto busca ofrecer una experiencia de compra personalizada con herramientas específicas para la selección de calzado, como guía de tallas, visualización 360° y recomendaciones personalizadas basadas en el estilo del usuario.</p>
 
-    <section>
-        <img src="sandalias.jpg" alt="Calzado Sport"/>
-        <img src="zapato_dama.jpg" alt="Calzado de dama"/>
-        <img src="zapato_mujer_tacon.jpg" alt="Calzado de dama"/>
-    </section>
-       
+        <div class="contenedor">
+            <img src="sandalias.jpg" alt="Calzado Sport"/>
+            <img src="zapatos.jpg" alt="Calzado de cabaleros"/>
+            <img src="zapato_mujer_tacon.jpg" alt="Calzado de dama"/>
+        </div>
+        <section>
+            <!-- Tabla --> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Descripcion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sandalias</td>
+                    <td>$150.000</td>
+                    <td>Sandalias sport</td>
+                </tr>
+                <tr>
+                    <td>Calzado dama tacon</td>
+                    <td>$189.000</td>
+                    <td>Calzado con tacon</td>
+                </tr>
+                <tr>
+                    <td>Calzado caballero-Dama</td>
+                    <td>$170.000</td>
+                    <td>Calzado elegante</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+    </Main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </Main>
 </body>
 
